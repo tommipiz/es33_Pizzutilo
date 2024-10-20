@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Invio Mail</title>
+</head>
+<body>
+    <h1>Invia una mail</h1>
+    <form action="invio.php" method="POST">
+        <label>Indirizzo mittente:</label>
+        <input type="text" name="mittente"><br><br>
+
+        <label>Indirizzo destinatario:</label>
+        <input type="text" name="destinatario"><br><br>
+
+        <label>Oggetto:</label>
+        <input type="text" name="oggetto"><br><br>
+
+        <label>Corpo del messaggio:</label><br>
+        <textarea name="corpo" rows="5" cols="30"></textarea><br><br>
+
+        <input type="submit" value="Invia">
+    </form>
+</body>
+</html>
