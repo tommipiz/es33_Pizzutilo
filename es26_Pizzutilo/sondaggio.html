@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sondaggio</title>
+</head>
+<body>
+    <form action="risultati.php" method="get">
+        <p>Inserisci il nome:</p>
+        <input type="text" name="nome">
+        <p>Inserisci il cognome:</p>
+        <input type="text" name="cognome">
+        <p>Inserisci la data di nascita:</p>
+        <input type="data" name="data_nascita">
+        <p>Inserisci l'orario di arrivo a casa nel giorno più lungo:</p>
+        <input type="time" name="orario_arrivo">
+        <p>Scegli come venire a scuola:</p>
+        <input type="radio" name="mezzo" value="piedi">A piedi
+        <input type="radio" name="mezzo" value="mezziPubblici">Mezzi pubblici
+        <input type="radio" name="mezzo" value="auto">In auto
+        <p>Corsi poimeridiani offerti dalla scuola:</p>
+        <input type="checkbox" name="corsi" value="corso di inglese" > corso di inglese
+        <input type="checkbox" name="corsi" value="corso di teatro" > corso di teatro
+        <input type="checkbox" name="corsi" value="attività sportive" > attività sportive <br><br>
+
+        <button name="invio">invio</button>
+
+    </form>
+
+
+    
+</body>
+</html>
